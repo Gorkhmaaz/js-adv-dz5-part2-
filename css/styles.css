@@ -1,0 +1,26 @@
+#slideshow-container {
+    max-width: 800px;
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    width: 800px;
+    height: 500px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    text-align: center;
+    transition: background-color 1s, color 1s;
+}
+
+.quote {
+    margin-top: 100px;
+    font-size: 24px;
+}
